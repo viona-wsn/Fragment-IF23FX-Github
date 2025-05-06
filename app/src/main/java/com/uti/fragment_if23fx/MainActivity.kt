@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 //          buat variabel bundle
           val bundle = Bundle()
 //          kirim parameter bundle
-          bundle.putString("content3","Ini contoh Fragment 3")
+          bundle.putString("content3","Ini contoh Fragment 3 Dong")
           fragment.arguments = bundle
             supportFragmentManager.beginTransaction().replace(R.id.frm_content,fragment).commit()
         }
